@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from function_hello_world.hello_world import run
+from function_hello_world.aws.lambdas.hello_world import run
 
 
 class test_hello_world(TestCase):
