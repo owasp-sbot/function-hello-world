@@ -1,0 +1,4 @@
+# for development
+pytest
+pytest-cov
+coveralls
