@@ -10,6 +10,6 @@ class test_hello_world(TestCase):
         context = {}
         assert run(event, context) == "From lambda code, hello None"
 
-        event = { "name" : "world"}
+        event = { "name" : "world" }
 
         assert run(event, context) == "From lambda code, hello world"

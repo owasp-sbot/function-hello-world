@@ -1,3 +1,5 @@
+python-dotenv
+
 # for development
 pytest
 pytest-cov
